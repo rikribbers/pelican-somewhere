@@ -25,6 +25,8 @@
     {% if FEED_RSS %}
       <link type="application/rss+xml" rel="alternate" href="/{{ FEED_RSS }}" title="{{ SITENAME }} RSS Feed">
     {% endif %}
+    
+
 
     <link rel="stylesheet" href="{{ SITEURL }}/theme/css/style.css">
 
@@ -47,6 +49,8 @@
 
   <script src="{{ SITEURL }}/theme/js/jquery.min.js"></script>
   <script src="{{ SITEURL }}/theme/js/bootstrap.min.js"></script>
+    <!-- DNSSEC CHECK -->
+  <script src="{{ SITEURL }}/theme/js/dnssec_check.js" type="text/javascript"></script>
 </body> <!-- 42 -->
 
 </html>

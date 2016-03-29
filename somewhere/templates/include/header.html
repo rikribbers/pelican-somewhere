@@ -38,7 +38,7 @@
           <li class="muted">|</li>
         {% endif %}
         {% if EMAIL_ADDRESS %}
-          <li><a class="nodec icon-mail-alt" href="mailto:{{ EMAIL_ADDRESS }}"></a></li>
+          <li><a class="nodec icon-mail" href="mailto:{{ EMAIL_ADDRESS }}"></a></li>
         {% endif %}
         {% if GITHUB_ADDRESS %}
           <li><a class="nodec icon-github" href="{{ GITHUB_ADDRESS }}"></a></li>
@@ -55,6 +55,10 @@
         {% if FB_ADDRESS %}
           <li><a class="nodec icon-facebook" href="{{ FB_ADDRESS }}"></a></li>
         {% endif %}
+        {% if SOCCER_ADDRESS %}
+          <li><a class="nodec icon-soccer" href="{{ SOCCER_ADDRESS }}"></a></li>
+        {% endif %}
+          <li><div id="sidn_dnssec_check"></div></li>
         {% if FEED_ATOM or FEED_RSS %}
           <li><a class="nodec icon-rss" href="/{% if FEED_ATOM %}{{ FEED_ATOM }}{% else %}{{ FEED_RSS }}{% endif %}"></a></li>
         {% endif %}
