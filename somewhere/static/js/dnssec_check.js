@@ -111,7 +111,7 @@ function sidn_dnssec_set_checking_text(text) {
 
 // Update the div with given icon url and given alt text
 function sidn_dnssec_set_status(icon, text) {
-	html = '<h4>dnssec</h4><a class="' + icon + '" />';
+	html = '<h6>dnssec</h6><a class="' + icon + '" />';
 	jQuery("#sidn_dnssec_check").html(html);
 }
 

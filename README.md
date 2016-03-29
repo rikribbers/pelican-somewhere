@@ -44,7 +44,8 @@ Pelican [documentation](http://docs.getpelican.com/en/latest/)
 | GITHUB_ADDRESS            | URL        | Github                    |
 | SO_ADDRESS                | URL        | Stack Overflow            |
 | TWITTER_ADDRESS           | URL        | Twitter                   |
-| LINKEDIN_ADDRESS          | URL        | Linkedin                   |
+| LINKEDIN_ADDRESS          | URL        | Linkedin                  |
+| SOCCER_ADDRESS            | URL        | Soccer page               |
 
 An RSS icon will also appear on the nav if `FEED_ATOM` or `FEED_RSS` is set.
 
