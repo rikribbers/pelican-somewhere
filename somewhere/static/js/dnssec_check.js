@@ -152,4 +152,4 @@ function sidn_dnssec_validation_check() {
 }
 
 // Initialize it automatically on startup.
-jQuery(document).ready(sidn_dnssec_validation_check);
+jQuery(document).ready(sidn_dnssec_validation_check);	

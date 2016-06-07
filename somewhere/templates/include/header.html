@@ -59,6 +59,8 @@
           <li><a class="nodec icon-soccer" href="{{ SOCCER_ADDRESS }}"></a></li>
         {% endif %}
           <li><div id="sidn_dnssec_check"></div></li>
+          <li><div id="sidn_ipv6_check"></div></li>
+
         {% if FEED_ATOM or FEED_RSS %}
           <li><a class="nodec icon-rss" href="/{% if FEED_ATOM %}{{ FEED_ATOM }}{% else %}{{ FEED_RSS }}{% endif %}"></a></li>
         {% endif %}
